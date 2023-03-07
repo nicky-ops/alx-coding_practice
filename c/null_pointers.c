@@ -7,5 +7,6 @@ int main()
 {
   int *pt = NULL;
   printf("The value of pt is: %x\n'",pt);
+  
   return 0;
 }
