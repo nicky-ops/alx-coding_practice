@@ -6,10 +6,10 @@ int factorial(int n)
   {
     return (1);
   } else
-    return n *factorial(n-1);
+    return n *factorial(n);
 }
 
-int main(void)
+void main(void)
 {
   int res;
   int n = 4;
