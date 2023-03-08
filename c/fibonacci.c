@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int fobonacci(int n)
+int fibonacci(int n)
 {
   if (n==0)
   {
@@ -9,13 +9,13 @@ int fobonacci(int n)
   {  
     return 1;
   } else
-    return fobonacci(n-1)+fobonacci(n-2);
+    return fibonacci(n-1)+fibonacci(n-2);
 }
 
 void main()
 {
   for (int i=0; i<100; i++)
     {
-      printf("%d\n",fobonacci(i));
+      printf("%d\n",fibonacci(i));
     }
 }
